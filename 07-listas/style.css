@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    /* list-style-image:  url('./imagem/icone.png'); */
+
+    list-style: square inside url('./imagem/icone.png');
+
+    background-color: orangered;
+
+    /* list-style-position: inside; */
+
+    /* é preferivel usar a do meio que é encurtada */
+    
+}
+
+ul li{
+    border: solid 1px black ;
+    padding: 20px;
+}
+
+ol li{
+
+    border: solid 1px black ;
+    padding: 20px;
+}
+
+
+ol{
+    background-color: orangered;
+    list-style: square inside url('./imagem/icone.png');
+}
+
+h1{
+    background-color: red;
+    color: white;
+}
+
+
+
